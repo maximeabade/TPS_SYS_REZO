@@ -1,0 +1,9 @@
+Important: ***Soyez le plus précis possible dans l’explication.***
+
+
+
+Vous devez rendre une archive, au format .zip ou tgz (ou .tar.gz)  contenant le travail que vous aurez effectué. L'archive aura comme nom : nom_prenom-tp12.tgz .
+
+
+
+L'archive contiendra un dossier contenant tout vos codes sources ainsi qu'un fichier README qui décrira comment compiler votre code et comment éxecuter votre programme.
