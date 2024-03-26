@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -19,7 +20,7 @@ int main(){
     p = fork();
     switch(p) {
         case 0 : 
-        //sleep(15);
+        sleep(15);
         printf("Je suis le fils, mon PID est %d et mon PPID est %d\n",getpid() ,getppid());
         printf("J'envoie les signaux à mon père.\n");
         kill(getppid(), SIGTERM);
@@ -27,7 +28,7 @@ int main(){
         break;
 
         case -1 :
-        //sleep(15);
+        sleep(15);
         perror("Erreur de création de processus avec fork");
         exit(-1);
         break;
